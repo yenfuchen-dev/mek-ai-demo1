@@ -35,6 +35,8 @@
       font-family: 'DM Sans', sans-serif;
       min-height: 100vh;
       overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
     }
 
     /* Noise texture overlay */
@@ -1737,6 +1739,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-top: auto;
     }
 
     /* ── MEASUREMENT ── */
@@ -2991,60 +2994,60 @@
 
     /* ── TABLET RESPONSIVE ── */
     @media (max-width: 1024px) {
-    nav {
-      padding: 16px 24px;
-    }
+      nav {
+        padding: 16px 24px;
+      }
 
-    .hero {
-      padding: 48px 24px 40px;
-    }
+      .hero {
+        padding: 48px 24px 40px;
+      }
 
-    h1 {
-      font-size: clamp(28px, 5vw, 48px);
-    }
+      h1 {
+        font-size: clamp(28px, 5vw, 48px);
+      }
 
-    .orchestrator,
-    .modules-section,
-    .ops-section {
-      margin-left: 24px;
-      margin-right: 24px;
-      padding-left: 0;
-      padding-right: 0;
-    }
+      .orchestrator,
+      .modules-section,
+      .ops-section {
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-left: 0;
+        padding-right: 0;
+      }
 
-    .orchestrator {
-      flex-wrap: wrap;
-      gap: 16px;
-      padding: 20px 24px;
-    }
+      .orchestrator {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 20px 24px;
+      }
 
-    .orch-title {
-      font-size: 56px;
-    }
+      .orch-title {
+        font-size: 56px;
+      }
 
-    .detail-panel {
-      margin-left: 24px;
-      margin-right: 24px;
-    }
+      .detail-panel {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
 
-    .modules-grid {
-      grid-template-columns: repeat(5, 1fr);
-    }
+      .modules-grid {
+        grid-template-columns: repeat(5, 1fr);
+      }
 
-    .detail-inner {
-      grid-template-columns: 1fr;
-    }
+      .detail-inner {
+        grid-template-columns: 1fr;
+      }
 
-    footer {
-      padding: 20px 24px;
-      flex-direction: column;
-      gap: 12px;
-      text-align: center;
-    }
+      footer {
+        padding: 20px 24px;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+      }
 
-    .nav-links {
-      display: none;
-    }
+      .nav-links {
+        display: none;
+      }
     }
 
     /* ── STRATEGY VIEW ───────────────────────────────── */
@@ -5701,11 +5704,11 @@
       <div style="display:flex;align-items:center;gap:10px;">
         <div
           style="width:32px;height:32px;border-radius:50%;background:var(--pink);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:14px;color:#fff;flex-shrink:0;">
-          PC</div>
+          JH</div>
         <div>
-          <div style="font-size:13px;font-weight:500;color:var(--text);line-height:1;">Peter Cambor</div>
+          <div style="font-size:13px;font-weight:500;color:var(--text);line-height:1;">Jason Harris</div>
           <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:0.06em;">
-            Peter.Cambor&#64;mekanism.ai</div>
+            Jason.Harris&#64;mekanism.ai</div>
         </div>
       </div>
     </div>
@@ -5725,7 +5728,7 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-eyebrow">AI-Powered Marketing Platform</div>
-    <h1>MekanismOperating System</h1>
+    <h1>Operating System</h1>
 
   </section>
 
